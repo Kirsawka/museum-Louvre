@@ -1,0 +1,11 @@
+.select {
+  width: 100px;
+  padding: 10px;
+  appearance: none;
+  margin-right: 15px;
+  outline: none;
+  border: none;
+  height: 35px;
+  background: url('../../assets/img/arrows.png') no-repeat right, #fff;
+  cursor: pointer;
+}

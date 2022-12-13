@@ -1,0 +1,16 @@
+.info-count {
+  color: #A4A4A3;
+  background: #030303;
+  padding: 0 11px;
+  border-radius: 5px;
+}
+
+.info-total {
+  margin-left: auto;
+}
+
+.info-wrapper.tickets {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}

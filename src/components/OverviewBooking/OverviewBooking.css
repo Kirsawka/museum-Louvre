@@ -1,0 +1,14 @@
+.info-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 300;
+}
+
+.icon-date.info,
+.icon-time.info,
+.icon-check-circle.info {
+  position: static;
+  transform: none;
+  pointer-events: none;
+}

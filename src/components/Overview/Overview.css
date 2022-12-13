@@ -1,0 +1,63 @@
+.overview {
+  background: url('../../assets/img/bg.jpg') no-repeat right top;
+}
+
+.overview__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #272727;
+  margin: 0 0 3px;
+}
+
+.overview__link {
+  font-weight: 500;
+  font-size: 22px;
+  color: #740C11;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.overview__booking {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.overview__tickets {
+  margin: 22px 0 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.overview__tickets::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #740C11;
+  position: absolute;
+  bottom: -10px;
+}
+
+.overview__total {
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .overview {
+    background-size: 120px 96px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .overview {
+    background: none;
+  }
+}

@@ -1,0 +1,35 @@
+.volume-control {
+  display: flex;
+  align-items: center;
+  width: 15%;
+}
+
+.volume-input {
+  width: 100%;
+  margin-left: 20px;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .volume-control {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .volume-control {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .volume-control {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .volume-control {
+    width: 100%;
+  }
+}

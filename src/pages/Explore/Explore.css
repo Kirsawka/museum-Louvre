@@ -1,0 +1,17 @@
+.container.explore__container {
+  display: flex;
+  gap: 60px;
+}
+
+.explore__img {
+  max-width: 720px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .container.explore__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}

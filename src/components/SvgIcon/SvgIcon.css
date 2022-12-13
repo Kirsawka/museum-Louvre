@@ -1,0 +1,128 @@
+.icon {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  fill: #b3b3b3;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  fill: #710707;
+}
+
+.icon-video {
+  width: 200px;
+  height: 200px;
+  fill: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.icon-date,
+.icon-time,
+.icon-name,
+.icon-email,
+.icon-tel,
+.icon-ballot {
+  width: 15px;
+  height: 15px;
+  fill: #030303;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+}
+
+.icon-arrow {
+  width: 17px;
+  height: 17px;
+  fill: #030303;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
+
+.icon-name {
+  width: 13px;
+}
+
+.icon-email {
+  height: 11px;
+}
+
+.icon-tel {
+  width: 14px;
+  height: 23px;
+}
+
+.icon-date-info,
+.icon-time-info,
+.icon-check-circle {
+  width: 15px;
+  height: 15px;
+  fill: #030303;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.icon-close {
+  width: 25px;
+  height: 25px;
+  fill: #030303;
+  position: absolute;
+  /* top: -36px;
+  right: -180px; */
+  top: 30px;
+  right: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .icon-video {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon-video {
+    width: 100px;
+    height: 100px;
+  }
+
+  .icon-fullscreen {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .icon-video {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icon-volume,
+  .icon-mute {
+    width: 30px;
+    height: 30px;
+  }
+
+  .icon-pause,
+  .icon-play {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .icon-fullscreen {
+    display: none;
+  }
+}

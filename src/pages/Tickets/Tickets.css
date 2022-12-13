@@ -1,0 +1,67 @@
+.section.ticket {
+  padding: 75px 0 0 0;
+  position: relative;
+}
+
+.ticket__container {
+  display: flex;
+  padding-bottom: 75px;
+}
+
+.ticket__img-wrapper {
+  max-width: 720px;
+}
+
+.ticket__img {
+  display: block;
+  width: 100%;
+}
+
+.ticket__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 60px;
+  width: 50%;
+}
+
+.ticket__parallax {
+  width: 100%;
+  height: 400px;
+  background-image: url('../../assets/img/parallax.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .section.ticket {
+    padding: 40px 0 0 0;
+  }
+
+  .ticket__wrapper {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ticket__parallax {
+    height: 200px;
+  }
+
+  .ticket__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .ticket__wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .ticket__wrapper {
+    padding: 0;
+  }
+}

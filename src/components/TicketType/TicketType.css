@@ -1,0 +1,77 @@
+.ticket-type__wrapper {
+  margin: 50px 0 20px;
+}
+
+.ticket-type__label {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+.ticket-type__input:checked,
+.ticket-type__input:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+.ticket-type__input:checked+.ticket-type__label,
+.ticket-type__input:not(:checked)+.ticket-type__label {
+  display: inline-block;
+  position: relative;
+  padding-left: 40px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.ticket-type__input:checked+.ticket-type__label:before,
+.ticket-type__input:not(:checked)+.ticket-type__label:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 17px;
+  height: 17px;
+  border: 2px solid black;
+  background-color: #ffffff;
+}
+
+.ticket-type__input:checked+.ticket-type__label:before,
+.ticket-type__input:not(:checked)+.ticket-type__label:before {
+  border-radius: 50%;
+}
+
+.ticket-type__input:checked+.ticket-type__label:after,
+.ticket-type__input:not(:checked)+.ticket-type__label:after {
+  content: "";
+  position: absolute;
+  transition: all 0.2s ease;
+}
+
+.ticket-type__input:checked+.ticket-type__label:after,
+.ticket-type__input:not(:checked)+.ticket-type__label:after {
+  left: 6px;
+  top: 6px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.ticket-type__input:not(:checked)+.ticket-type__label:after {
+  opacity: 0;
+}
+
+.ticket-type__input:checked+.ticket-type__label:after {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .ticket-type__wrapper {
+    margin: 20px 0;
+  }
+
+  .ticket-type__label {
+    font-size: 20px;
+  }
+}

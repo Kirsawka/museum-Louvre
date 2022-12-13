@@ -1,0 +1,49 @@
+.amount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.amount__total {
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1.65px;
+  margin: 30px 0 60px;
+}
+
+.amount__button {
+  background-color: #000000;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  padding: 10px 35px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.amount__button:hover {
+  background-color: #9d8665;
+}
+
+@media screen and (max-width: 1024px) {
+  .amount {
+    align-items: flex-start;
+  }
+
+  .amount__total {
+    margin: 15px 0 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .amount__count-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+.video {
+  position: relative;
+}
+
+.video__player {
+  max-width: 1440px;
+  width: 100%;
+  max-height: 650px;
+}
+
+.video__player[poster] {
+  object-fit: cover;
+  display: block;
+}

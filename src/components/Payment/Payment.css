@@ -1,0 +1,98 @@
+.credit-card {
+  position: relative;
+  font-size: 12px;
+  line-height: 14px;
+  color: #161615;
+  padding: 15px 0 55px;
+}
+
+.front-side {
+  max-width: 360px;
+  height: 211px;
+  background: #BCBCBC;
+  position: relative;
+  z-index: 2;
+  border-radius: 4px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.back-side {
+  max-width: 360px;
+  width: 100%;
+  height: 211px;
+  background: #939393;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  border-radius: 4px;
+}
+
+.credit-card__subtitle {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.card-number,
+.card-name {
+  padding: 10px;
+  height: 35px;
+  appearance: none;
+  margin-right: 15px;
+  outline: none;
+  border: none;
+}
+
+.card-name {
+  width: 100%;
+}
+
+.visa-img {
+  position: absolute;
+  top: 34px;
+  right: 20px;
+}
+
+.mastercard-img {
+  position: absolute;
+  top: 65px;
+  right: 20px;
+}
+
+.back-side::after {
+  content: '';
+  width: 100%;
+  height: 45px;
+  background: #161615;
+  position: absolute;
+  top: 25px;
+}
+
+.back-side__info {
+  position: absolute;
+  top: 85px;
+  max-width: 75px;
+  right: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-cvc {
+  width: 100%;
+  padding: 10px;
+  height: 35px;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.cvc-text {
+  font-size: 10px;
+  line-height: 12px;
+  max-width: 55px;
+  margin: 6px 0 0;
+}

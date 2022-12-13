@@ -1,0 +1,83 @@
+.card {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Forum';
+  position: relative;
+  max-width: 440px;
+  display: block;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  top: 345px;
+  width: 0;
+  height: 2px;
+  background: #710707;
+  transition: .3s;
+}
+
+.card:hover::after {
+  content: '';
+  max-width: 300px;
+  width: 100%;
+}
+
+.card__img {
+  max-width: 440px;
+  height: 285px;
+}
+
+.card__title {
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.card__text {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 10px 0;
+}
+
+.card__text_second-line {
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: 280px;
+  }
+
+  .card::after {
+    width: 0;
+    display: none;
+  }
+
+  .card__img {
+    max-width: 280px;
+    height: 180px;
+  }
+
+  .card__title {
+    font-size: 19px;
+    margin: 10px 0;
+  }
+
+  .card__text {
+    font-size: 17px;
+    margin: 0;
+  }
+
+  .card__text_second-line {
+    font-size: 15px;
+  }
+}
