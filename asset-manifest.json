@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/museum-louvre/static/css/main.73f32d37.css",
-    "main.js": "/museum-louvre/static/js/main.92dc262f.js",
+    "main.css": "/museum-louvre/static/css/main.2458130b.css",
+    "main.js": "/museum-louvre/static/js/main.01a33899.js",
     "static/media/video0.mp4": "/museum-louvre/static/media/video0.8ac1823a53bfb3e15e5f.mp4",
     "static/media/meninas-before.jpg": "/museum-louvre/static/media/meninas-before.d64007dd8db24d21f51e.jpg",
     "static/media/pompeo.jpg": "/museum-louvre/static/media/pompeo.ae6951c0c78f795000c7.jpg",
@@ -35,28 +35,34 @@
     "static/media/galery15.jpg": "/museum-louvre/static/media/galery15.2abc0d6e96efc163f3f7.jpg",
     "static/media/galery4.jpg": "/museum-louvre/static/media/galery4.a8929b7eaa039093b92c.jpg",
     "static/media/galery1.jpg": "/museum-louvre/static/media/galery1.66a13acfdf8f43d5017d.jpg",
+    "static/media/tel.svg": "/museum-louvre/static/media/tel.8af49d541544727fbd58b038e32e6c79.svg",
+    "static/media/bookingLogo.svg": "/museum-louvre/static/media/bookingLogo.a048d1ddf0eda82237d37488711e53d4.svg",
     "static/media/instagram.svg": "/museum-louvre/static/media/instagram.05695fcc2a9bf6761665dcc549466c05.svg",
     "static/media/frame.svg": "/museum-louvre/static/media/frame.40dd155732f7ffce2a07.svg",
     "static/media/volume.svg": "/museum-louvre/static/media/volume.d76e217a10d942f938aa73b34fb57410.svg",
     "static/media/date.svg": "/museum-louvre/static/media/date.bbba7c5ace43ea053379fff3a34e2628.svg",
+    "static/media/email.svg": "/museum-louvre/static/media/email.f99200e63d82bfa3f8d76b4fdb761fcb.svg",
     "static/media/mute.svg": "/museum-louvre/static/media/mute.3831fa9e7d1c8b32d8c9a7fa260556af.svg",
     "static/media/pinterest.svg": "/museum-louvre/static/media/pinterest.a14750fa93127b8778bd14b07da0a11a.svg",
     "static/media/time.svg": "/museum-louvre/static/media/time.38af93d8d094e311528bf411ad7d30d2.svg",
     "static/media/playbtn.svg": "/museum-louvre/static/media/playbtn.1e98bcf0b6f61e360fd5cf41f63492f8.svg",
     "index.html": "/museum-louvre/index.html",
     "static/media/twitter.svg": "/museum-louvre/static/media/twitter.f64d3db0760c78e604081072bb8198b2.svg",
+    "static/media/name.svg": "/museum-louvre/static/media/name.241a1a558b15bb1a5a3fd5f438daca7c.svg",
+    "static/media/arrow.svg": "/museum-louvre/static/media/arrow.69a47a8e8e6939027fd676e499400fa9.svg",
     "static/media/youtube.svg": "/museum-louvre/static/media/youtube.59f95a1556803bdf11c47ce478bc22cd.svg",
+    "static/media/ballot.svg": "/museum-louvre/static/media/ballot.6800c27f8f21f1ab1d73e62019ab0bb3.svg",
     "static/media/pause.svg": "/museum-louvre/static/media/pause.659fa9887c07a9cb10a9890cba330600.svg",
     "static/media/checkCircle.svg": "/museum-louvre/static/media/checkCircle.6c28ed85900cf913eb27b5cc9f4f3364.svg",
     "static/media/fullscreen.svg": "/museum-louvre/static/media/fullscreen.9a905dcb6cd65dc2aeb2b50936ffa117.svg",
     "static/media/facebook.svg": "/museum-louvre/static/media/facebook.e08b759ded14e3d513f56661a7755c35.svg",
     "static/media/close.svg": "/museum-louvre/static/media/close.86afdc91561e7503a419772189a3806b.svg",
     "static/media/play.svg": "/museum-louvre/static/media/play.e05d1b3f34f36077e33b20bb818329b5.svg",
-    "main.73f32d37.css.map": "/museum-louvre/static/css/main.73f32d37.css.map",
-    "main.92dc262f.js.map": "/museum-louvre/static/js/main.92dc262f.js.map"
+    "main.2458130b.css.map": "/museum-louvre/static/css/main.2458130b.css.map",
+    "main.01a33899.js.map": "/museum-louvre/static/js/main.01a33899.js.map"
   },
   "entrypoints": [
-    "static/css/main.73f32d37.css",
-    "static/js/main.92dc262f.js"
+    "static/css/main.2458130b.css",
+    "static/js/main.01a33899.js"
   ]
 }
