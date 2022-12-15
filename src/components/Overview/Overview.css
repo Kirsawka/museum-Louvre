@@ -23,6 +23,7 @@
   flex-direction: column;
   gap: 5px;
   margin-top: 10px;
+  max-width: 61%;
 }
 
 .overview__tickets {
@@ -59,5 +60,9 @@
 @media screen and (max-width: 390px) {
   .overview {
     background: none;
+  }
+
+  .overview__booking {
+    min-width: 100%;
   }
 }

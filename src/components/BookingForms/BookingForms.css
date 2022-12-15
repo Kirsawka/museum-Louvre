@@ -1,0 +1,70 @@
+.booking__forms {
+  margin-top: 73px;
+}
+
+.booking__wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.booking__input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 21px;
+  color: #030303;
+  outline: none;
+  border: 1px solid #030303;
+  padding: 12px 45px;
+}
+
+.booking__input::placeholder {
+  color: #030303;
+}
+
+.date-time {
+  justify-content: space-between;
+  display: flex;
+  gap: 15px;
+}
+
+.date-time .booking__wrapper {
+  max-width: 190px;
+}
+
+.date-time .booking__input,
+select.booking__input {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .date-time .booking__wrapper {
+    max-width: 251px;
+  }
+
+  .booking__forms {
+    margin-top: 52px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .booking__input {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .date-time {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .date-time .booking__wrapper {
+    min-width: 100%;
+  }
+}

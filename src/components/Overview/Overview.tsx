@@ -11,6 +11,7 @@ function Overview() {
   const ticketType = useAppSelector((state) => state.ticketType.value);
   const count = useAppSelector((state) => state.ticketCounter.value);
   const price = useAppSelector((state) => state.price.value);
+  const booking = useAppSelector((state) => state.booking.value);
   const [totalBasicPrice, setTotalBasicPrice] = useState(0);
   const [totalSeniorPrice, setTotalSeniorPrice] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
@@ -34,19 +35,19 @@ function Overview() {
       </a>
       <div className='overview__booking'>
         <OverviewBooking
-          info='Friday, August 19'
+          info={booking.date ? booking.date : "Select date"}
           svgIcon={date}
           iconName='date'
           className='icon-date info'
         />
         <OverviewBooking
-          info='16 : 30'
+          info={booking.time ? booking.time : "Select time"}
           svgIcon={time}
           iconName='time'
           className='icon-time info'
         />
         <OverviewBooking
-          info={ticketType ? ticketType : "Temporary exhibition"}
+          info={ticketType ? ticketType : "Select exhibition type"}
           svgIcon={checkCircle}
           iconName='checkCircle'
           className='icon-check-circle info'

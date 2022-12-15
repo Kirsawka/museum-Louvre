@@ -9,6 +9,7 @@ import "./BookingPage.css";
 
 function BookingPage() {
   const dispatch = useAppDispatch();
+
   return (
     <>
       <div className='booking-page'>
@@ -16,6 +17,7 @@ function BookingPage() {
         <div className='overview-block'>
           <Overview />
           <Payment />
+          <button className='buy-btn'>Buy Now</button>
         </div>
       </div>
       <SvgIcon

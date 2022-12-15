@@ -86,6 +86,11 @@ export type DateSelectProps = {
   name: string;
 };
 
+export type BookingFormsProps = {
+  ticketTypes: string[];
+  times: string[];
+};
+
 export type Page = {
   id: number;
   path: string;

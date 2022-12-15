@@ -1,9 +1,10 @@
 import { TicketTypeProps } from "../../types";
 import { setType } from "../../store/reducers/ticketType/ticketType";
-import { useAppDispatch } from "../../store/hooks";
+import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import "./TicketType.css";
 
 function TicketType({ ticketTypes }: TicketTypeProps) {
+  const ticketType = useAppSelector((state) => state.ticketType.value);
   const dispatch = useAppDispatch();
   return (
     <div className='ticket-type'>
@@ -19,6 +20,7 @@ function TicketType({ ticketTypes }: TicketTypeProps) {
                 value={type}
                 className='ticket-type__input'
                 onChange={(e) => dispatch(setType(e.target.value))}
+                checked={type === ticketType ? true : false}
               />
               <label htmlFor={`type${ind + 1}`} className='ticket-type__label'>
                 {type}

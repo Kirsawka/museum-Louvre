@@ -1,0 +1,26 @@
+.booking__tickets {
+  padding: 10px 15px;
+  border: 1px solid #030303;
+  position: relative;
+  color: #030303;
+}
+
+.booking__tickets::after {
+  content: '';
+  width: calc(100% - 30px);
+  height: 2px;
+  background: #740C11;
+  display: block;
+  position: absolute;
+  top: 35px;
+}
+
+.booking-tickets__subtitle {
+  font-family: 'Forum';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #9D8665;
+  margin: 0 0 25px;
+}

@@ -1,10 +1,9 @@
 .booking-page {
   max-width: 1010px;
-  padding: 0 20px;
+  padding: 35px 20px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  margin-top: 35px;
 }
 
 .overview-block {
@@ -12,6 +11,37 @@
   border: 1px solid #030303;
   width: 55%;
   max-width: 530px;
+  position: relative;
+}
+
+.buy-btn {
+  background: #710707;
+  padding: 11px 0;
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  transition: .3s;
+  cursor: pointer;
+  width: 220px;
+  opacity: 0.9;
+  position: absolute;
+  bottom: 26px;
+  right: 30px;
+}
+
+.buy-btn:hover {
+  background: #9D8665;
+}
+
+@media screen and (min-width: 850px) and (max-width: 1023px),
+screen and (max-width: 550px) {
+  .buy-btn {
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -22,6 +52,12 @@
 
   .overview-block {
     width: 100%;
-    padding: 25px 15px;
+    padding: 25px 15px 85px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .overview-block {
+    padding-bottom: 40px;
   }
 }
